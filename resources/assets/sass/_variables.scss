@@ -16,3 +16,43 @@ $btn-default-color: $text-color;
 
 // Panels
 $panel-default-heading-bg: #fff;
+
+//colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purpule: #9561e2;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+//color classes
+.blue {
+    color: $blue;
+}
+.indigo {
+    color: $indigo;
+}
+.purpule {
+    color: $purpule;
+}
+.red {
+    color: $red;
+}
+.orange {
+    color: $orange;
+}
+.yellow {
+    color: $yellow;
+}
+.green {
+    color: $green;
+}
+.teal {
+    color: $teal;
+}
+.cyan {
+    color: $cyan;
+}
