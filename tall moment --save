@@ -1,0 +1,53 @@
+[33mcommit d2fab591d06a71be278b2657437412f92bb1f836[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Fred Lungu <dlungu91@gmail.com>
+Date:   Sun Dec 29 22:59:24 2019 +0200
+
+    Getting users from the data base
+
+[33mcommit 664d9b78b22c795297cedf191bf1a3a05b005100[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Fred Lungu <dlungu91@gmail.com>
+Date:   Sun Dec 29 22:30:44 2019 +0200
+
+    validation
+
+[33mcommit 6f2517d6ebdffb835b3cc6bdc9eb712c0eb9a1fa[m
+Author: Fred Lungu <dlungu91@gmail.com>
+Date:   Sun Dec 29 21:04:18 2019 +0200
+
+    bootstrap modal configared and vform added
+
+[33mcommit 1d21c89ccc19b50d728dba9e14ae548c26b18c10[m
+Author: Fred Lungu <dlungu91@gmail.com>
+Date:   Sun Dec 29 19:09:09 2019 +0200
+
+    axios installed
+
+[33mcommit 7393fa0853983ade810b9cdcda90c15996ccd02c[m
+Author: Fred Lungu <dlungu91@gmail.com>
+Date:   Sat Dec 28 19:18:46 2019 +0200
+
+    active links added
+
+[33mcommit b519798b1479d90f1c483fedcb7be17942b71467[m
+Author: Fred Lungu <dlungu91@gmail.com>
+Date:   Sat Dec 28 18:57:33 2019 +0200
+
+    history mode added
+
+[33mcommit 975f04bf5f529c8038a45d8cd74747a256f81a7e[m
+Author: Fred Lungu <dlungu91@gmail.com>
+Date:   Sat Dec 28 18:51:11 2019 +0200
+
+    added vue router
+
+[33mcommit 22894bb2cb4a983d3571f23452913a68b577035f[m
+Author: Fred Lungu <dlungu91@gmail.com>
+Date:   Sat Dec 28 17:21:10 2019 +0200
+
+    cutomizing side menu
+
+[33mcommit 5ddaad41c01ca93076a4146b3b9c168819e6d00d[m
+Author: Fred Lungu <dlungu91@gmail.com>
+Date:   Sat Dec 28 16:26:30 2019 +0200
+
+    first commite
