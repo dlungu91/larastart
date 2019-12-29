@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('type')->default('user');
-            $table->mediamText('bio')->nullable();
+            $table->mediumText('bio')->nullable();
             $table->string('photo')->default('astronaut.png');
             $table->rememberToken();
             $table->timestamps();

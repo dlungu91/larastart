@@ -53,6 +53,7 @@
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+                <form @submit.prevent="createUser">
                 <div class="modal-body">
                     <!-- form data -->
                     <div class="form-group">
@@ -75,6 +76,7 @@
                             class="form-control" :class="{ 'is-invalid': form.errors.has('type') }">
                             <option value="">Select user role</option>
                             <option value="admin">Admin</option>
+                            <option value="author">Author</option>
                             <option value="user">User</option>
                         </select>
                         <has-error :form="form" field="type"></has-error>
@@ -90,10 +92,11 @@
                     <button type="button" class="btn btn-danger" data-dismiss="modal">
                         Close <i class="fas fa-window-close"></i>
                     </button>
-                    <button type="button" class="btn btn-primary">
+                    <button type="submit" class="btn btn-primary">
                         Save <i class="fas fa-save"></i>
                     </button>
                 </div>
+                </form>
                 </div>
             </div>
             </div>
@@ -113,6 +116,11 @@
                     bio: '',
                     photo: ''
                 })
+            }
+        },
+        methods: {
+            createUser() {
+                this.form.post('api/user');
             }
         },
         mounted() {
